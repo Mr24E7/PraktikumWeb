@@ -17,16 +17,16 @@
             $a=$_POST['a'];
             $b=$_POST['b'];
             $c=$_POST['c'];
-            $angka=array($a,$b,$c); 	
+            $huruf=array($a,$b,$c); 	
 			
-            sort($angka);  
+            sort($huruf);  
             echo "</br>";
             echo "<div class='hasil'> HASIL : ";
             
-            $jumlah=count($angka);  
+            $jumlah=count($huruf);  
             for($x=0;$x<$jumlah;$x++)  
             {  
-                echo $angka[$x];  
+                echo $huruf[$x];  
                 echo " ";  
             }  	
             echo "</div>";
