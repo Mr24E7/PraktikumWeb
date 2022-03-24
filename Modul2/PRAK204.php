@@ -9,17 +9,18 @@
     <form action="" method="post">
 	Nilai : <br>
     <input type="text" name="nilai"><br>
-    <input type="submit" value="Konversi">
+    <input type="submit" name="cv" value="Konversi">
     </form>
 </body>
 </html>
 
 <?php
 	error_reporting(0);
+	if (isset($_POST['cv'])) {
     $nilai=$_POST['nilai'];
     if ($nilai >= 1 and $nilai <= 9){
         echo "<h1><b>Hasil : Satuan</b></h1><br>";
-    } else if ($nilai >= 10 and $nilai <= 19){
+    } else if ($nilai >= 11 and $nilai <= 19){
         echo "<h1><b>Hasil : Belasan</b></h1><br>";
     } else if ($nilai >= 20 and $nilai <= 99){
         echo "<h1><b>Hasil : Puluhan</b></h1><br>";;
@@ -30,4 +31,5 @@
     } else {
         echo "Nilai yang dimasukkan Melebihi Batas";
     }
+	}
 ?>
