@@ -1,0 +1,76 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Righteous', cursive;
+}
+
+.link a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.link a:hover .bi-facebook{
+    color: #3b5998;
+}
+
+.link a:hover .bi-github{
+    color: #ccc;
+}
+
+.link a:hover .bi-instagram{
+    color: #C13584;
+}
+
+.link a:hover .bi-twitter{
+    color: #1DA1F2;
+}
+
+*{margin: 0px auto;}
+html,body{
+    height: 100%;
+}
+
+#container{
+    min-height: 100%;
+    position: relative;
+}
+
+.header{
+    background: #0cf;
+    padding: 10px;
+}
+
+.content{
+    padding: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+}
+
+.wrapper {
+    display:flex;
+    align-items:center;
+    width:400px;
+    height:400px;
+    background:#eee;
+}
+.lingkaran {
+    background: #e51e63;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px -2px #e51e63;
+    height: 50px;
+    margin: 0 auto;
+    width: 50px;
+}
